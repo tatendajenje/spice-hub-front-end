@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+  margin :0px;
+  padding :0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  font-family:jost;
+}
+
+:root{
+  --color-primary:#15A4F9;
+  --color-bg:rgba(245, 248 , 255, 0.9);
+  --color-variant: #B4B4B4;
+  --color-dark: #111;
+}
+
+h1{
+  color :var(--color-dark);
+  font-size: 3rem;
+}
+
+#logo{
+  transform: 4000ms ease;
+}
+
+
+
